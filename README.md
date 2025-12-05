@@ -17,32 +17,28 @@ The primary purpose of this repository is to:
 
 **[As they are completed, list specific features of the pipeline or planned improvements.]**
 
+
 ## Prospective Directory Structure
+
 A well-organized directory structure is essential for maintainability, reproducibility, and collaboration. Below is a suggested structure for this repository:
 
-EKG Processing/
-│
-├── data/
-│ ├── raw/ # Original, unprocessed EKG data
-│ ├── processed/ # Preprocessed and cleaned data
-│ └── external/ # Any external datasets
-│
-├── notebooks/ # Jupyter notebooks for exploration and experimentation
-│
-├── src/ # Source code
-│ ├── data_processing/ # Scripts to preprocess and transform data
-│ ├── feature_engineering/# Feature extraction scripts for ML models
-│ ├── models/ # Model definitions and training scripts
-│ └── utils/ # Utility functions
-│
-├── tests/ # Unit tests for code reliability
-│
-├── docs/ # Documentation, explanations, and figures
-│
-├── environment.yml / requirements.txt # Environment and dependencies
-│
-├── README.md # Project overview and instructions
-└── setup.py # Optional, for package installation
+- **EKG-Processing/**
+  - **data/**
+    - raw/ (Original, unprocessed EKG data)
+    - processed/ (Preprocessed and cleaned data)
+    - external/ (Any external datasets)
+  - **notebooks/** (Jupyter notebooks for exploration and experimentation)
+  - **src/** (Source code)
+    - data_processing/ (Scripts to preprocess and transform data)
+    - feature_engineering/ (Feature extraction scripts for ML models)
+    - models/ (Model definitions and training scripts)
+    - utils/ (Utility functions)
+  - **tests/** (Unit tests for code reliability)
+  - **docs/** (Documentation, explanations, and figures)
+  - **environment.yml** (Environment dependencies)
+  - **requirements.txt** (Python dependencies)
+  - **README.md** (Project overview and instructions)
+  - **setup.py** (Optional, for package installation)
 
 
 
