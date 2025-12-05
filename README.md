@@ -1,3 +1,6 @@
+![EKG Banner](EKG_Banner.jpg)
+
+
 # EKG-Project Overview
 
 ## Project Context
